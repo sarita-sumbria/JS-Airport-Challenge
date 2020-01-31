@@ -120,3 +120,14 @@ TypeError: plane.takeoff is not a function
 
 2) Created a unit test for plane takeoff function.
 Both feature test and unit test are failing.
+
+3) Updated the Plane class with the following function.
+
+```
+constructor() {
+      this.__location;
+    }
+```
+```
+TypeError: this._location.clearForTakeOff is not a function
+```
