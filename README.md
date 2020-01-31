@@ -28,6 +28,7 @@ As an air traffic controller
 To ensure safety
 I want to prevent landing when weather is stormy
 
+
 Stories Completed
 ------------------
 
@@ -73,3 +74,12 @@ Steps taken:
 
  7) Added planes method to the Airport class.
  New error for feature test: Expected [  ] to contain Plane({  }).
+
+ 8)  plane object needs to interact with airport object.
+ Interaction is stubbed in the plane unit test.
+
+ * New thing learned that 'spys' are Jasmine's equivalent of 'doubles'.  
+
+ New Error: Expected spy airport.clearForLanding to have been called with:
+  [ Plane({  }) ]
+but it was never called.
