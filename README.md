@@ -34,6 +34,11 @@ Stories Completed
 
 1st user story:
 
+As an air traffic controller
+So I can get passengers to a destination
+I want to instruct a plane to land at an airport
+
+
 Converting user story into domain model
 
 nouns: traffic controller or user, passengers, plane, airport
@@ -93,8 +98,22 @@ TypeError: airport.clearForLanding is not a function
 
 12) Airport class updated with the following constructor function.
 
+```
 constructor() {
   this._hangar = []
 }
+```
 
 Result: First user story Completed (All tests passing).
+
+
+2st user story:
+
+As an air traffic controller
+So I can get passengers on the way to their destination
+I want to instruct a plane to take off from an airport and confirm that it is no longer in the airport
+
+Steps taken:
+
+1) Added a feature test for plane takeoff.
+TypeError: plane.takeoff is not a function
