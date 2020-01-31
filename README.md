@@ -83,3 +83,10 @@ Steps taken:
  New Error: Expected spy airport.clearForLanding to have been called with:
   [ Plane({  }) ]
 but it was never called.
+
+9) plane class is updated with airport clearForLanding method.
+TypeError: airport.clearForLanding is not a function
+
+10) defined clearForLanding function in Airport class
+
+11) 'Spy' is used in the airport unit test
