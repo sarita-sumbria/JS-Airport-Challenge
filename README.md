@@ -90,3 +90,11 @@ TypeError: airport.clearForLanding is not a function
 10) defined clearForLanding function in Airport class
 
 11) 'Spy' is used in the airport unit test
+
+12) Airport class updated with the following constructor function.
+
+constructor() {
+  this._hangar = []
+}
+
+Result: First user story Completed (All tests passing).
