@@ -1,3 +1,7 @@
 'use strict';
 
-class Airport{};
+class Airport {
+  planes() {
+    return [];
+  };
+};

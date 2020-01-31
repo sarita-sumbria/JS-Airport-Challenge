@@ -55,8 +55,6 @@ Steps taken:
  Same error as feature test
 
  3) Created a Plane class in src/plane.js
-
-
  Error: planes can be expected to land at an airport
 
  ReferenceError: Airport is not defined
@@ -69,5 +67,9 @@ Steps taken:
  Still have a failing feature test
 
  5) created a unit test for Airport class in spec/airportSpec.js
+
  6) created a Airport class in src/airport.js
  still failing the test
+
+ 7) Added planes method to the Airport class.
+ New error for feature test: Expected [  ] to contain Plane({  }).
