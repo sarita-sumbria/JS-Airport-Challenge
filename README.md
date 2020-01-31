@@ -49,3 +49,7 @@ user <-> plane <-> airport <-> user
 
 Steps taken:
 1) Created a failing feature test in spec/featureSpec.js
+ Error: Plane is not defined
+
+ 2)Created a unit test for Plane class in spec/planeSpec.js
+ Same error as feature test
