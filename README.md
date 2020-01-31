@@ -67,3 +67,5 @@ Steps taken:
 
  4) Added a land method to the Plane class.
  Still have a failing feature test
+
+ 5) created a unit test for Airport class in spec/airportSpec.js
