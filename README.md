@@ -117,3 +117,6 @@ Steps taken:
 
 1) Added a feature test for plane takeoff.
 TypeError: plane.takeoff is not a function
+
+2) Created a unit test for plane takeoff function.
+Both feature test and unit test are failing.
