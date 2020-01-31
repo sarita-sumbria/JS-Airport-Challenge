@@ -69,3 +69,5 @@ Steps taken:
  Still have a failing feature test
 
  5) created a unit test for Airport class in spec/airportSpec.js
+ 6) created a Airport class in src/airport.js
+ still failing the test
