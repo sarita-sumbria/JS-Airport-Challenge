@@ -131,3 +131,9 @@ constructor() {
 ```
 TypeError: this._location.clearForTakeOff is not a function
 ```
+
+4) Added a unit test for takeoff function in spec/airportSpec.js and spec/planeSpec.js
+
+5) Updated the code in airport.js and plane.js files to pass the tests.
+
+Result: All tests are passing. 2nd user story completed.
