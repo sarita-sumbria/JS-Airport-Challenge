@@ -51,5 +51,19 @@ Steps taken:
 1) Created a failing feature test in spec/featureSpec.js
  Error: Plane is not defined
 
- 2)Created a unit test for Plane class in spec/planeSpec.js
+ 2) Created a unit test for Plane class in spec/planeSpec.js
  Same error as feature test
+
+ 3) Created a Plane class in src/plane.js
+
+
+ Error: planes can be expected to land at an airport
+
+ ReferenceError: Airport is not defined
+ TypeError: plane.land is not a function
+
+ Plane can land at an airport
+ Error: Expected undefined not to be undefined.
+
+ 4) Added a land method to the Plane class.
+ Still have a failing feature test
